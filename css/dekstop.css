@@ -87,17 +87,11 @@ img {
   height: auto;
   display: block;
 }
+.doing {
+  display: block;
+ }
 
-.doing-title {
-  margin-bottom: 72px;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 111;
-  text-align: center;
-  letter-spacing: 0.02em;
-  text-transform: capitalize;
-  color: #2e2f42;
-}
+
 .doing-list {
   display: flex;
   gap: 24px;
@@ -116,7 +110,7 @@ img {
   margin-bottom: 72px;
   font-weight: 700;
   font-size: 36px;
-  line-height: 111;
+  line-height: 1.11;
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
@@ -137,8 +131,8 @@ img {
 }
 .footer-cont {
   display: flex;
-  padding-left: 15px;
-  padding-right: 15px;
+
+justify-content: space-between;
 }
 
 .footer-logo {
@@ -152,11 +146,11 @@ img {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #4d5ae5;
-  margin-bottom: 16px;
+  
 }
 .footer-container {
   width: 264px;
-  margin-right: 120px;
+  
 }
 .footer-logo-studio {
   color: #f4f4fd;
@@ -179,6 +173,7 @@ img {
   text-align: left;
   color: #ffffff;
   margin-bottom: 24px;
+
 }
 .footer-soc {
   display: flex;
@@ -206,9 +201,7 @@ img {
 .footer-icons {
   fill: #f4f4fd;
 }
-.footer-subs {
-  margin-left: 80px;
-}
+
 .subs-title {
   font-family: Roboto;
   font-size: 16px;
