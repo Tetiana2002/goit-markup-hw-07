@@ -15,4 +15,7 @@
     .header-list , .header-list-adress {
         display: none;
       }
+      .modal{
+        width: 392px;
+      }
 }

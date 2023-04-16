@@ -1,4 +1,4 @@
-@media screen and (min-width:1200px) {
+@media screen and (min-width:1158px) {
     .container{
         width: 1158px;
     }
@@ -130,11 +130,15 @@ img {
 .footer {
   padding-top: 100px;
   padding-bottom: 100px;
+  margin-left: auto;
+  margin-right: auto;
 
   background: #2e2f42;
 }
 .footer-cont {
   display: flex;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .footer-logo {
@@ -232,8 +236,6 @@ img {
 }
 .footer-btn {
   padding-top: 45px;
-
-  margin-left: 24px;
 }
 .footer-btn-text {
   width: 165px;
