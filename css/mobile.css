@@ -1,21 +1,23 @@
-@media screen and (min-width:428px) {
-    .container{
-        width: 428px;
-    }
-    .about-text {
-        width: 396px;
-        height: auto;
-    }
-    .customers-logo {
-        width: calc(100% - 30px) / 2;}
-        
-    .doing{
-        display: none;
-    }
-    .header-list , .header-list-adress {
-        display: none;
-      }
-      .modal{
-        width: 392px;
-      }
+@media screen and (min-width: 428px) {
+  .container {
+    width: 428px;
+  }
+  .about-text {
+    width: 396px;
+    height: auto;
+  }
+  .customers-logo {
+    width: 190px;
+  }
+
+  .doing {
+    display: none;
+  }
+  .header-list,
+  .header-list-adress {
+    display: none;
+  }
+  .modal {
+    width: 392px;
+  }
 }
